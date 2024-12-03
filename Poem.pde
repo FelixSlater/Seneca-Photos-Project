@@ -10,7 +10,8 @@ class Poem{
     float posY;
     float rotation;
     int numLines;
-    Poem(String filename){ 
+    Poem(String filename){  
+        textSize(50)
         start=0;
         runner=0;
         counter=0;
